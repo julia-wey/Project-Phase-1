@@ -23,29 +23,3 @@ document.addEventListener("DOMContentLoaded", function fetchData(){
         marioList.appendChild(card);
  });
 }
-
-
- 
-
-
-// function displayCharacters(amiiboArray) {
-//         const marioList = document.getElementById('marioList');
-//         marioList.innerHTML = '';
-        
-//         amiiboArray.forEach(item => {
-//             const listItem = document.createElement('li');
-//             const imgElement = document.createElement('img');
-//             imgElement.src = item.image;
-//             imgElement.alt = `${item.character} Amiibo`;
-                
-//             listItem.appendChild(imgElement);
-
-//             const infoDiv = document.createElement('div');
-//             infoDiv.className = 'infoDiv';
-//             infoDiv.textContent = `SERIES: ${item.amiiboSeries}, CHARACTER: ${item.character}`; 
-
-//             listItem.appendChild(infoDiv);
-    
-//             marioList.appendChild(listItem);
-//             });
-//         }
