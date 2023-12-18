@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function fetchData(){
                             </div>
                         <div class="info-overlay" style="display: none;"></div>
                             <br></br>
-                        <span class="heart-text">Click the heart if you would like this amiibo. </span>
+                        <span class="heart-text">Click the heart if you would like to add this amiibo to your Wish List. </span>
                         <span class="heart" data-id="{item.id}" style="cursor: pointer; color: #ccc;">&#10084;</span>
                     </div>
                 </div>
