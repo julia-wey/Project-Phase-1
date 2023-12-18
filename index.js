@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function fetchData(){
                         <div class="info-overlay" style="display: none;"></div>
                             <br></br>
                         <span class="heart-text">Click the heart if you would like this amiibo. </span>
-                        <span class="heart" data-id="{item.id}" onclick="toggleHeart(this)" style="cursor: pointer; color: #ccc;">&#10084;</span>
+                        <span class="heart" data-id="{item.id}" style="cursor: pointer; color: #ccc;">&#10084;</span>
                     </div>
                 </div>
             </div>
@@ -37,6 +37,9 @@ document.addEventListener("DOMContentLoaded", function fetchData(){
             });
             card.addEventListener('mouseout', function () {
                 hideInfo(card);
+            });
+            card.querySelector('.heart').addEventListener('click', function(event) {
+                toggleHeart(event.target);
             });
         marioList.appendChild(card);
  });
